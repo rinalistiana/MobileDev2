@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:layout_marginTop="130dp"
+        android:text="devrnz"
+        android:textColor="#F3F4EB"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button"
+        android:backgroundTint="#F4ECEC"
+        android:text="Login"
+        android:textColor="#FF5722"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/blue"
+        android:text="Register now"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Quick login with Touch ID"
+        android:textColor="#fff"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_fingerprint_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Touch ID"
+        android:textColor="#fff"
+        android:textSize="18dp" />
+
+</LinearLayout>
